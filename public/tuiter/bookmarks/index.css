@@ -1,0 +1,109 @@
+
+.wd-border-left{
+    border-left: 1px solid rgb(47, 51, 54);
+}
+.wd-border-right{
+    border-right: 1px solid rgb(47, 51, 54);
+}
+.wd-border-bottom{
+    padding-top: 12px;
+    border-bottom: 1px solid rgb(47, 51, 54);
+}
+
+.container {
+    position: relative;
+    left: 16px;
+    top: 12px;
+}
+
+
+.title {
+    color: white;
+    font-size: 20px;
+    padding-top: 12px;
+    padding-left: 16px;
+}
+
+.handle {
+    color: lightgray;
+    font-size: 13px;
+    margin: 0 16px;
+}
+
+
+.wd-left{
+    padding-left: 16px;
+}
+.wd-top{
+    padding-top: 12px;
+}
+.wd-profile-photo{
+    width: 48px;
+    height: 48px;
+    border-radius: 24px;
+    float: left
+}
+
+.wd-left-align{
+    float: left;
+}
+.wd-text-white{
+    color: white;
+}
+.wd-text-gray{
+    color: gray;
+}
+.wd-post-text{
+    color: white;
+    padding-bottom: 12px;
+}
+.wd-post{
+    max-width: 506px;
+    display: flex;
+    flex-direction: row;
+}
+.wd-post-content{
+    font-size: 15px;
+    padding-left: 12px;
+}
+
+.wd-main-image-div{
+    border-radius: 40px;
+    border: rgb(47, 51, 54) solid;
+
+}
+.wd-main-image{
+    width: 504px;
+    height: 264px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+
+}
+
+.wd-main-image-text{
+    padding: 12px;
+
+}
+
+nav{
+    display:block;
+    overflow:auto;
+    padding-top: 12px;
+}
+nav a{
+    float:left;
+    text-align:center;
+    width:25%;
+    text-decoration: none;
+}
+
+.wd-gray{
+    color: gray;
+}
+.wd-red{
+    color: red;
+}
+
+.wd-icon{
+    padding-left: 12px;
+}
