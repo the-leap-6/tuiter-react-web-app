@@ -1,13 +1,3 @@
-body{
-    background-color: black;
-    border: rgb(47, 51, 54) solid;
-    padding-top: 12px;
-    color: white;
-}
-
-.wd-padding-left{
-    padding-left: 16px;
-}
 .wd-padding-top{
     padding-top: 12px;
 }
@@ -18,12 +8,12 @@ body{
 }
 
 .wd-handle {
-    color: lightgray;
+    color:rgb(144,140,140);
     font-size: 13px;
     padding-bottom: 12px;
 }
 .wd-border-bottom{
-    border-bottom: 1px rgb(47, 51, 54) solid;
+    border-bottom: 1px rgb(144,140,140) solid;
 }
 
 .wd-post{
@@ -45,7 +35,7 @@ body{
 
 .wd-post-handle{
     font-size: 15px;
-    color: lightgray;
+    color:rgb(144,140,140);
 }
 
 .wd-main-content{
@@ -57,7 +47,7 @@ body{
 }
 
 .wd-post-content{
-    border: rgb(47, 51, 54) solid 1px;
+    border:rgb(144,140,140) solid 1px;
     border-radius: 30px;
     width:504px;
 
@@ -67,7 +57,7 @@ body{
     width:504px;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
-    border: rgb(47, 51, 54) solid 1px;
+    border:rgb(144,140,140) solid 1px;
 }
 .wd-post-text{
     padding:12px;
@@ -75,7 +65,7 @@ body{
 
 .wd-gray-icon{
     font-size: 13px;
-    color: lightgray;
+    color:  rgb(144,140,140);
 
 }
 

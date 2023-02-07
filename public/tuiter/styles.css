@@ -1,6 +1,9 @@
 body{
     background-color: black;
-    padding-left: 16px;
+    border: rgb(47, 51, 54) solid;
+    padding-top: 12px;
     color: white;
-    font-family: Arial,"Times New Roman","Comic Sans MS",Helvetica, Arial;
+}
+.wd-padding-left{
+    padding-left: 16px;
 }
