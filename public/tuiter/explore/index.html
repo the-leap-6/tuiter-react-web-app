@@ -1,19 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
     <title>Explore</title>
     <link rel="stylesheet" href="index.css"/>
-    <link rel="stylesheet" href="../styles.css"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
 </head>
 <body>
-    <div>
-        <input class="wd-search-twitter wd-float-left" placeholder="    Search Twitter">
-        <a class = "wd-float-right"href="explore-settings.html"><img src="icons/icon-settings.png" ></a>
+    <div class="wd-padding-left">
+        <input class="wd-search-twitter wd-search-text" type=text placeholder="Search Twitter"/>
+        <a href="explore-settings.html"><img src="gear.png" class="wd-gear"/></a>
     </div>
-    <br/>
-
-    <div class ="wd-navbar">
+    <div class ="wd-navbar wd-padding-left">
         <a class='wd-selected' href="">For You</a>
         <a class='wd-not-selected' href="">Trending</a>
         <a class='wd-not-selected' href="">COVID-19</a>
@@ -21,71 +18,75 @@
         <a class='wd-not-selected' href="">Sports</a>
         <a class='wd-not-selected' href="">Entertainment</a>
     </div>
-    <hr>
-    <ul>
-        <li class="wd-topic-number">Trending in Science <img class="wd-float-right" src="icons/gray-dots.png" ></li>
+    <svg width="100%" height="10" class="wd-border-thick-top wd-border-bottom">
+        <rect class = "wd-rectangle" />
+    </svg>
+    <div><img class="wd-float-right" src="white-dots.png" ></div>
+    <br>
+    <div class="wd-border-bottom">
+    <ul class="wd-padding-left">
+        <li class="wd-suggestion">Trending in Science <img class="wd-float-right" src="dots.png" ></li>
         <li>Starship</li>
-        <li class="wd-topic-number">5.55K Tweets</li>
+        <li class="wd-suggestion">5.55K Tweets</li>
     </ul>
-    <ul>
-        <li class="wd-topic-number">Sports Trending <img class="wd-float-right" src="icons/gray-dots.png" ></li>
+    <ul class="wd-padding-left">
+        <li class="wd-suggestion">Sports Trending <img class="wd-float-right" src="/dots.png" ></li>
         <li>Joe Rogan</li>
-        <li class="wd-topic-number">5,218 Tweets</li>
+        <li class="wd-suggestion">5,218 Tweets</li>
     </ul>
-    <hr>
-<ul class="wd-grid-row">
-    <li style="font-size: 13px">
-        <img src = "icons/tnt.png" height="9" width="7" >
-        The New York Times
-        <img src = "icons/verified.png" height="9" width="9" >
-        <span class="wd-topic-number"> ⋅ Yesterday</span>
-        <img class="wd-float-right wd-rounded-corners-all-around" src = "icons/tnt-cover.jpeg" height="100" width="100">
-    </li>
-    <li>
-        CNN's Cuomo conundrum: A star anchor with a brother in trouble
-    </li>
-
-    </ul>
-    <hr>
-    <ul class="wd-grid-row">
-        <li style="font-size: 13px">
-            <span class="wd-topic-number">COVID-19 ⋅ LIVE</span>
-            <img class="wd-float-right wd-rounded-corners-all-around" src = "icons/covid.jpeg" height="100" width="100">
+    </div>
+    <ul class="wd-grid-row wd-padding-left">
+        <li class="wd-font-small">
+            <img src = "tnt.png" height="9" width="7" >
+            The New York Times
+            <img src = "verified.png" height="9" width="9" >
+            <span class="wd-suggestion"> ⋅ Yesterday</span>
+            <img class="wd-float-right wd-rounded-corners-all-around" src = "tnt-cover.jpeg" height="100" width="100">
         </li>
         <li>
-            COVID-19: News and Updates for Massachusetts
+            CNN's Cuomo conundrum: A star anchor with a brother in trouble
         </li>
     </ul>
-    <hr>
-    <ul class="wd-grid-row">
-        <li style="font-size: 13px">
-            <span class="wd-topic-number">Spy Balloon ⋅ LIVE</span>
-            <img class="wd-float-right wd-rounded-corners-all-around" src = "icons/spy.jpeg" height="100" width="100">
+    <div class="wd-border-bottom"></div>
+    <ul class="wd-grid-row wd-padding-left">
+        <li class="wd-font-small">
+            <span class="wd-suggestion">Spy Balloon ⋅ LIVE</span>
+            <img class="wd-float-right wd-rounded-corners-all-around" src = "spy.jpeg" height="100" width="100">
         </li>
         <li>
             Spy Balloon: U.S. Navy Divers Work to Recover Debris From Chinese Spy Balloon as Diplomacy Dwindles
         </li>
     </ul>
-    <hr>
-    <ul>
-        <li class="wd-topic-number">Trending in Technology <img class="wd-float-right" src="icons/gray-dots.png" ></li>
+    <div class="wd-border-bottom"></div>
+    <ul class="wd-padding-left">
+        <li class="wd-suggestion">Trending in Technology <img class="wd-float-right" src="dots.png" ></li>
         <li>Chat GPT</li>
-        <li class="wd-topic-number">555K Tweets</li>
+        <li class="wd-suggestion">555K Tweets</li>
     </ul>
-    <hr/>
-    <ul class="wd-grid-row">
-        <li style="font-size: 13px">
-            <img src = "icons/bloomberg.png" height="9" width="7" >
+    <div class="wd-border-bottom"></div>
+    <ul class="wd-grid-row wd-padding-left">
+        <li class="wd-font-small">
+            <span class="wd-suggestion">COVID-19 ⋅ LIVE</span>
+            <img class="wd-float-right wd-rounded-corners-all-around" src = "covid.jpeg" height="100" width="100">
+        </li>
+        <li>
+            COVID-19: News and Updates for Massachusetts
+        </li>
+    </ul>
+    <div class="wd-border-bottom"></div>
+    <ul class="wd-grid-row wd-padding-left">
+        <li class="wd-font-small">
+            <img src = "bloomberg.png" height="9" width="7" >
             Bloomberg Opinion
-            <img src = "icons/verified.png" height="9" width="9" >
-            <span class="wd-topic-number"> ⋅ Yesterday</span>
-            <img class="wd-float-right wd-rounded-corners-all-around" src = "icons/bb.jpeg" height="100" width="100">
+            <img src = "verified.png" height="9" width="9" >
+            <span class="wd-suggestion"> ⋅ Yesterday</span>
+            <img class="wd-float-right wd-rounded-corners-all-around" src = "bb.jpeg" height="100" width="100">
         </li>
         <li>
             Thinking about getting a booster? Read this first!
         </li>
-
     </ul>
+    <div class="wd-border-bottom"></div>
 
 
 </body>
