@@ -100,3 +100,7 @@ nav a{
     width:25%;
     text-decoration: none;
 }
+
+.wd-bold{
+    font-weight: bold;
+}
