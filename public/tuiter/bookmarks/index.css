@@ -94,3 +94,8 @@ nav a{
 .wd-bold{
     font-weight: bold;
 }
+
+.row img{
+    max-width: 100%;
+    max-height: 100%;
+}

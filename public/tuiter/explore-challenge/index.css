@@ -1,0 +1,176 @@
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+    border-radius: 1.6875rem;
+
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+.wd-float-right{
+    float: right;
+}
+
+.wd-img{
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: 10%;
+}
+
+.wd-right{
+    float: right;
+}
+
+.wd-round-img{
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 25px;
+}
+
+.wd-round-corners{
+    max-width: 40px;
+    max-height: 40px;
+    border-radius: 5px;
+
+}
+
+.wd-button{
+    border-radius: 40px;
+    float: right;
+    font-size: 14px
+}
+
+.wd-align-center{
+    align-items: center;
+}
+
+.wd-display-block{
+    display: block;
+}
+
+.wd-gray{
+    color: gray;
+    font-size: 14px;
+}
+
+.wd-button-rounding{
+    border-radius: 40px;
+}
+
+
+.wd-handler{
+    font-size: 13px;
+    color: gray;
+}
+
+.wd-selected { text-decoration:  underline 4px dodgerblue; text-underline-offset: 10px; color: black; font-weight: bold }
+.wd-not-selected{
+    color: rgb(110, 118, 125);
+}
+.wd-navbar {
+    width: 100%;
+    overflow: auto;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+.wd-navbar li {
+    font-size: 15px;
+    text-align: center;
+
+}
+
+.wd-image-container {
+    margin-top: 5px;
+    position: relative;
+    color: white;
+}
+
+.wd-bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.wd-bottom-left-light {
+    position: absolute;
+    bottom: 50px;
+    left: 16px;
+    color: white;
+    font-size: 15px;
+}
+
+.wd-border-none{
+    border: none;
+}
+
+.wd-font12{
+    font-size: 12px;
+}
+
+.wd-font14{
+    font-size: 14px;
+}
+
+.wd-font16{
+    font-size: 16px;
+}
+
+.wd-font10{
+    font-size: 10px;
+}
+
+.wd-font22{
+    font-size: 22px;
+}
+
+.wd-gray-color{
+    color: gray;
+}
+
+.wd-display-inline{
+    display: inline;
+}
+
+.wd-dodgerblue{
+    color: dodgerblue;
+}
+
+.wd-darkgray{
+    color: darkgray;
+}
+
+.wd-goldenrod{
+    color: goldenrod;
+}
+
+.wd-border-left{
+    border-left: 1px solid rgba(0,0,0,.125);
+}
+
+.wd-border-right{
+    border-right: 1px solid rgba(0,0,0,.125);
+}
+
+.wd-border-top{
+    border-top: 1px solid rgba(0,0,0,.125);
+}
+
+.wd-bg-blue-white{
+    background-color: dodgerblue;
+    color: white;
+
+}
