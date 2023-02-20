@@ -1,8 +1,8 @@
 const EachComponent = (active, icon, text, link) =>{
     if (active)
         return (` 
-        <a href=${link} class="list-group-item d-block d-lg-block d-xl-none "><i class="${icon} wd-solid-icons"></i></a>
-        <a href=${link} class="list-group-item d-none d-lg-none d-xl-block d-xxl-block"><i class="${icon} pe-3 wd-solid-icons"  ></i><b>${text}</b></a>    
+        <a href=${link} class="list-group-item d-block d-lg-block d-xl-none active "><i class="${icon} wd-solid-icons"></i></a>
+        <a href=${link} class="list-group-item d-none d-lg-none d-xl-block d-xxl-block active"><i class="${icon} pe-3 wd-solid-icons"  ></i><b>${text}</b></a>    
         `)
     else
         return (` 
