@@ -1,5 +1,4 @@
 import Nav from "../../nav";
-
 function HelloWorld() {
     return(
         <div>
