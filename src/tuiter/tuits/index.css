@@ -1,0 +1,46 @@
+.wd-tuit{
+    display: flex;
+    flex-direction: row;
+    border-bottom: rgb(144,140,140) solid 1px;
+}
+
+.wd-red-icon{
+    color: red;
+}
+
+.wd-profile-photo{
+    width: 48px;
+    height: 48px;
+    border-radius: 24px;
+}
+.wd-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+.wd-icons{
+    font-size: 16px;
+    color : rgb(144,140,140);
+}
+
+nav{
+    display:block;
+    overflow:auto;
+}
+nav .wd-nav-items{
+    float:left;
+    text-align:left;
+    width:25%;
+    text-decoration: none;
+}
+
+.wd-text{
+    font-size: 14px;
+    color:rgb(60,60,60);
+
+}
+
+.wd-main-content{
+
+    max-width: 506px;
+
+}

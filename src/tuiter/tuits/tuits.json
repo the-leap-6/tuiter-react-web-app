@@ -1,0 +1,46 @@
+[
+  { "_id": 123,
+    "topic": "Space",
+    "userName": "SpaceX",
+    "title": "Tesla Cybertruck lands on Mars and picks up the Curiosity rover on its 6' bed",
+    "time": "2h",
+    "image": "../../images/tesla.png",
+    "liked": true,
+    "replies": 123,
+    "retuits": 432,
+    "likes": 2345,
+    "verified": true,
+    "handle": "@spacex",
+    "tuit": "You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars"
+  },
+  { "_id": 234,
+    "topic": "Space",
+    "userName": "SpaceX",
+    "title": "100s of SpaceX Starships land on Mars after a 6 month journey. 1000s of Martian colonists being building Mars Base 1",
+    "time": "2h",
+    "image": "../../images/spacex.png",
+    "liked": true,
+    "replies": 234,
+    "retuits": 212,
+    "likes": 1022,
+    "verified": true,
+    "handle": "@spacex",
+    "tuit": "Musk plans to build a full-size city on the surface of Mars. This would be a city open to regular people, not just scientists and researchers. People interested in moving to Mars could pay for their flight with a loan. Once there, people would be able to pay off the loan by working in anything from iron foundries to pizzerias. Musk declared at a 2016 conference that there would be labor shortages for a long time. This city would be free to govern itself on its own terms, as indicated by the Starlink internet service terms and conditions released in October 2020. This appears to stand in contradiction to the 1967 Outer Space Treaty, which states that the launch origin country is responsible for subsequent space activities. David Anderman, who served as SpaceX’s general counsel when the terms were released, suggested to Inverse in 2021 that the two documents may be set on a collision course."
+
+  },
+  { "_id": 345,
+    "topic": "Energy",
+    "userName": "Tesla",
+    "title": "Tesla FSD finally makes driving obsolete. After years of delay, Tesla Full Self Driving can drive you to work while you work, play, or sleep",
+    "time": "4d",
+    "image": "../../images/tesla.png",
+    "liked": false,
+    "replies": 100,
+    "retuits": 20,
+    "likes": 500,
+    "verified": true,
+    "handle": "@tesla",
+    "tuit": "“Full self-driving,” as it currently stands, navigates local roads with steering, braking and acceleration, but requires a human driver prepared to take control at any moment, as the system makes judgment errors. The National Highway Traffic Safety Administration said that, based on its analysis, Tesla’s FSD feature “led to an unreasonable risk to motor vehicle safety based on insufficient adherence to traffic safety laws.” And it warned FSD could violate traffic laws at some intersections “before some drivers may intervene.”\n\n“The FSD Beta system may allow the vehicle to act unsafe around intersections, such as traveling straight through an intersection while in a turn-only lane, entering a stop sign-controlled intersection without coming to a complete stop, or proceeding into an intersection during a steady yellow traffic signal without due caution,” said the recall notice, posted on NHTSA’s website."
+  }
+]
+

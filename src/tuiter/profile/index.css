@@ -1,0 +1,65 @@
+.wd-profileImageBanner{
+    height: 150px;
+    width: 100%;
+    background-image: url('bannerPicture.png');
+    background-size: 100% 150px;
+    border-radius: 10px 10px 0 0;
+
+}
+
+.profileImage{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: relative;
+    top: 80px;
+    left: 5%;
+    border: 4px solid #fff;
+    outline: none;
+}
+
+.editProfile{
+    position: relative;
+    top: 100px;
+    left: 60%;
+}
+
+
+
+
+.profileName{
+    position: relative;
+    top: 80px;
+    padding-left: 5%;
+    color: #323539;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.profileHandler{
+    color: darkgray;
+    font-weight: bold;
+    font-size: 15px;
+    position: relative;
+    padding-left: 5%;
+    top: 75px;
+
+}
+
+.profilBio{
+    color: #323539;
+    font-size: 16px;
+    top: 80px;
+    position: relative;
+    padding-left: 5%;
+    font-family: "Comic Sans MS";
+}
+
+.otherDetails{
+    top: 90px;
+    position: relative;
+    padding-left: 5%;
+    font-size: 14px;
+    color: #323539;
+
+}
