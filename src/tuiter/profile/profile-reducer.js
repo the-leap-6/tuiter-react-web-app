@@ -21,9 +21,6 @@ const profileSlice = createSlice({
         "totalTweets" : "1.42K"
     },
     reducers:{
-        toggleShowProfile(state, action){
-            state.showProfile = !state.showProfile;
-        },
         updateProfile(state, action){
             console.log(action.payload)
           return action.payload
@@ -32,5 +29,5 @@ const profileSlice = createSlice({
 
 });
 
-export const {toggleShowProfile, updateProfile} = profileSlice.actions
+export const {updateProfile} = profileSlice.actions
 export default profileSlice.reducer;

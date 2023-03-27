@@ -2,18 +2,17 @@ import "./index.css"
 import {useDispatch, useSelector} from "react-redux";
 import {toggleShowProfile, updateProfile} from "../profile/profile-reducer";
 import { useForm } from "react-hook-form"
+import {useNavigate} from "react-router";
 
 const EditProfile = () =>{
 
     const profileInformation = useSelector(state => state.profile)
     const dispatch = useDispatch()
     const {register, handleSubmit} =useForm({defaultValues:profileInformation});
-    const toggleProfile = ()=>{
-        dispatch(toggleShowProfile(profileInformation))
-    }
+   const navigate = useNavigate()
     const onSubmit=(e)=>{
         dispatch(updateProfile(e))
-        dispatch(toggleShowProfile(profileInformation))
+        navigate("/tuiter/profile")
 
     }
 
@@ -29,7 +28,7 @@ const EditProfile = () =>{
     return(
         <div>
             <div className="row align-items-center">
-                <i className="col-1 bi bi-x-lg" onClick={toggleProfile}></i>
+                <i className="col-1 bi bi-x-lg" onClick={() => navigate("/tuiter/profile")}></i>
                 <h4 className="col-9 float-left m-0">Edit Profile</h4>
                 <button class="col-2 btn btn-dark rounded-pill float-end" onClick={handleSubmit(onSubmit)}> Save </button>
             </div>
@@ -43,7 +42,7 @@ const EditProfile = () =>{
                 <FormItems id={"lastName"} label={"Last Name"}/>
                 <FormItems id={"bio"} label={"Bio"} />
                 <FormItems id={"website"} label={"Website"} />
-                <FormItems id={"location"} abel={"Location"} />
+                <FormItems id={"location"} label={"Location"} />
             </form>
         </div>
     )
