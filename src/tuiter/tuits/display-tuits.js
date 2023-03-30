@@ -10,11 +10,12 @@ const TuitItem = ({tuit}) => {
     }
 
     return(
+
         <div className="wd-tuit mb-3 pb-3">
-            <img className="col-1 wd-profile-photo " src={tuit.image}/>
+            <img className="col-1 wd-profile-photo "  src={`/images/${tuit.image}`}/>
             <div className="col-11 ps-2">
                 <div>
-                <span className="wd-title">{tuit.userName} <i className={tuit.verified?"bi bi-check-circle-fill text-primary pe-1":""}></i></span>
+                <span className="wd-title">{tuit.username} <i className={tuit.verified?"bi bi-check-circle-fill text-primary pe-1":""}></i></span>
                     <span className="wd-text">{tuit.handle} ⋅ {tuit.time}</span>
                     <i className="bi bi-x-lg float-end"
                        onClick={() => deleteTuitHandler(tuit._id)}></i>

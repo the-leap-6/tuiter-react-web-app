@@ -12,7 +12,7 @@ const initialState = {
 const currentUser = {
     "userName": "NASA",
     "handle": "@nasa",
-    "image": "/images/nasa.png",
+    "image": "nasa.png",
 };
 
 const templateTuit = {
@@ -53,6 +53,7 @@ const tuitsSlice = createSlice({
             },
         [createTuitThunk.fulfilled]:
             (state, { payload }) => {
+                console.log(payload)
                 state.loading = false
                 state.tuits.push(payload)
             },
