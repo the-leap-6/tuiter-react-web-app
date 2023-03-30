@@ -1,5 +1,5 @@
 import {useDispatch} from "react-redux";
-import {updateLikes} from "./tuits-reducer";
+import {updateTuitThunk} from "../../services/tuits-thunks";
 
 const TuitStats = (  {
                          tuitStatData = {
@@ -12,9 +12,15 @@ const TuitStats = (  {
                      })=>{
     console.log(tuitStatData)
     const dispatch = useDispatch();
-    const toggleLikes = () => {
-        dispatch(updateLikes(tuitStatData))
+    const updateLikes = () => {
+        if(tuitStatData.liked){
+            dispatch(updateTuitThunk({ ...tuitStatData, likes: tuitStatData.likes - 1, liked: false}));
+        }
+        else{
+            dispatch(updateTuitThunk({ ...tuitStatData, likes: tuitStatData.likes + 1, liked: true}));
+        }
     }
+
     return (
 
         <nav>
@@ -26,7 +32,7 @@ const TuitStats = (  {
                 <i className="bi bi-repeat"></i>
                 <span className="ps-1">{tuitStatData.retuits}</span>
             </span>
-            <span href="" className="wd-nav-items wd-icons p-2" onClick = {toggleLikes}>
+            <span href="" className="wd-nav-items wd-icons p-2" onClick = {updateLikes}>
                 <i className={tuitStatData.liked?"bi bi-heart-fill wd-red-icon":"bi bi-heart"} ></i>
                 <span className="ps-1">{tuitStatData.likes}</span>
             </span>

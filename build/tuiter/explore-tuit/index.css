@@ -1,0 +1,61 @@
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+    border-radius: 1.6875rem;
+
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+.wd-gear{
+    float: right;
+    margin-right: 12px
+}
+
+.wd-img{
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: 10%;
+}
+
+.wd-right{
+    float: right;
+}
+
+.wd-round-img{
+    max-width: 40px;
+    max-height: 40px;
+    border-radius: 20px;
+}
+
+.wd-button{
+    border-radius: 40px;
+    float: right;
+    font-size: 14px
+}
+
+.wd-align-center{
+    align-items: center;
+}
+
+.wd-display-block{
+    display: block;
+}
+
+.wd-gray{
+    color: gray;
+}
+
+.wd-button-rounding{
+    border-radius: 40px;
+}

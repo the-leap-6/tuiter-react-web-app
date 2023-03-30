@@ -1,0 +1,25 @@
+.wd-handler{
+    font-size: 13px;
+    color: gray;
+}
+
+.wd-display-block{
+    display: block;
+}
+
+.wd-round-img{
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 25px;
+}
+
+.wd-align-center{
+    align-items: center;
+}
+
+.wd-round-corners{
+    max-width: 40px;
+    max-height: 40px;
+    border-radius: 5px;
+
+}

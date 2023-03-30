@@ -1,0 +1,9 @@
+body{
+    background-color: black;
+    border: rgb(47, 51, 54) solid;
+    padding-top: 12px;
+    color: white;
+}
+.wd-padding-left{
+    padding-left: 16px;
+}

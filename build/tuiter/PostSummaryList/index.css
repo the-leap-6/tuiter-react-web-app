@@ -1,0 +1,15 @@
+.wd-display-block{
+    display: block;
+}
+
+.wd-gray{
+    color: gray;
+}
+.wd-img{
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: 10%;
+}
+.wd-right{
+    float: right;
+}
